@@ -1,9 +1,9 @@
 # Developer Portfolio
 
-The project in this repository is to create a developer portfolio.
-This simple project of one webpage with css shows a developer portfolio.
+This repository is a simple developer portfolio on one webpage with css and javascript.
+To view this project, click [Developer Portfolio](https://klhi3.github.io/developer-portfolio/)
 
-## Process
+## Features
 This webpage meets accessibility standards with 
 1. semantic HTML elements in source code
 2. followed a logical structure independent of styling and positioning on the structure of the HTML elements
