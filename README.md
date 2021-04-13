@@ -10,7 +10,7 @@ This webpage meets accessibility standards with
 3. accessible alt attributes on image elements
 4. heading sttributes in sequential order
 5. a concise, descriptive title element
-
+6. flexbox, media queries, CSS variables
 
 ## Usage
 Provide instructions and examples for use. Include screenshots as needed.
