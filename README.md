@@ -20,10 +20,8 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
     
 ## Credits
-BCS Fullstack Course 
+Columbia University - Full Stack Flex Online Program
 
-## Run
-To run this project, click [Developer Portfolio](https://klhi3.github.io/developer-portfolio/)
 
 
 :copyright:klhi3
