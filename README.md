@@ -1,6 +1,6 @@
 # Developer Portfolio
 
-This repository is a simple developer portfolio on one webpage with css and javascript.
+This repository is a simple developer portfolio on one webpage with css and javascript.  
 To view this project, click [Developer Portfolio](https://klhi3.github.io/developer-portfolio/)
 
 ## Features
