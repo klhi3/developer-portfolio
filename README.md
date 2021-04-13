@@ -1,4 +1,4 @@
-# Create a Developer Portfolio
+# Developer Portfolio
 
 The project in this repository is to create a developer portfolio.
 This simple project of one webpage with css shows a developer portfolio.
