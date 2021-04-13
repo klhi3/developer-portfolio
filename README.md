@@ -23,8 +23,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 BCS Fullstack Course 
 
 ## Run
-To run this project,   
-click [Developer Portfolio](https://klhi3.github.io/developer-portfolio/)
+To run this project, click [Developer Portfolio](https://klhi3.github.io/developer-portfolio/)
 
 
 :copyright:klhi3
