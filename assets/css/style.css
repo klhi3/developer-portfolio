@@ -125,9 +125,6 @@ aside {
 }
 
 .awork {
-    /* padding: 10px; */
-    /* clear: both;
-    float: left; */
 
     /* height: 100%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -139,9 +136,6 @@ aside {
     border-right-style: solid;
     border-right-color: var(--dark);
 
-    /* border-spacing: 20px;
-    border-style: solid; */
-    /* border-color:violet; */
 }
 
 
@@ -213,63 +207,29 @@ aside h1 {
     border-color:violet */
 }
 
-/* Work Deployed Applications : one */
-.wcont-cell {
-    flex: 1;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-
-    border-spacing: 20px;
-    border-style: solid;
-    border-color:var(--smbg-color);
-}
-
-.wcont-cell:hover {
-    filter: brightness(110%);
-}
 
 
-.wcont-item {
 
-    width: 100%;
-    padding: 3.5em 0em 0;
-
- 
-    background-size: cover;
-    background-position: center;   
-
-    height:126px;
-
-    border-spacing: 60px;
-    border-style: solid;
-    border-color:var(--smbg-color);
-    
-}
-
-/* image 1 on the first diployed application */
-.img1{
-    background-image: url("../images/c1.jpeg");
-
-        /* href="https://klhi3.github.io/horiseon-seo-optimization/" title="Refactoring" target="_blank" */
-}
-
-/* image 2 on the second diployed application */
-.img2 {
-    background-image: url("../images/c2.jpeg");
-    
-}
-
-/* image 3 on the third diployed application */
-.img3 {
-    background-image: url("../images/c3.jpeg");
-}
-
-.margin2 {
-  margin-right: 10px;;
-}
-
-
-.wcont-item p {
+/* First Image link to the webpage*/
+.img-item{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.image-border {
+    width:100%;
+    height: 128px;
+    /* Sets border on all sides */
+    border: 6px solid var(--smbg-color);
+    background-color: var(--smbg-color);
+    object-fit:cover;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+  }
+  .img-item .bottom-left p {
     display: inline-block;
 
     text-align: left;
@@ -280,15 +240,33 @@ aside h1 {
     color: var(--hdbgcolor);
     background-color: var(--smbg-color);
 
-    line-height: 0.5em;
-    
+    line-height: 0.3em;
 } 
-
-.wcont-item p span{
+.img-item .bottom-left p span{
     font-weight: normal;
     font-size: 11px;
 } 
+/* End: First Deployed APplication link*/
 
+
+
+/* Work Deployed Applications : one */
+.wcont-cell {
+    flex: 1;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.wcont-cell:hover {
+    filter: brightness(110%);
+}
+
+.margin2 {
+    margin-right: 10px;;
+  }
+
+
+/* Contar me */
 .cme{
     display: flex;
     flex-direction: row;
@@ -317,6 +295,8 @@ aside h1 {
     line-height: 150%;
     text-decoration:underline;
 }
+/* End: Contact me*/
+
 
 footer {
     clear: both;
@@ -324,10 +304,12 @@ footer {
     text-align: center;
 }
 
+
+
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main, 
-  nav, .container {
+  nav, .wcontainer  {
     flex-direction: column;
     flex-wrap: wrap;
   }
