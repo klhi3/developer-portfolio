@@ -227,6 +227,11 @@ aside h1 {
     border-color:var(--smbg-color);
 }
 
+.wcont-cell:hover {
+    filter: brightness(110%);
+}
+
+
 .wcont-item {
 
     width: 100%;
@@ -251,17 +256,17 @@ aside h1 {
     font-weight: bold;
     font-size: 32px;
 
-    padding: 5px;
+    padding: 10px;
     color: var(--hdbgcolor);
     background-color: var(--smbg-color);
+
+    line-height: 0.5em;
     
 } 
 
 .wcont-item p span{
-    font-weight:normal;
+    font-weight: normal;
     font-size: 11px;
-    margin: 0;
-
 } 
 
 .contact-me {
