@@ -77,24 +77,21 @@ main {
     display: flex; 
     background-color: var(--light);
 
-    border-spacing: 20px;
+    /* to test the box */
+    /* border-spacing: 20px;
     border-style: solid;
-    border-color:violet
+    border-color:violet */
 }
 
 section {
     /* width: 80%; */
 
     margin-bottom: 30px;
-    padding: 32px;
-    height: 300px;
+    padding: 10px; /*top space*/
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--light);
     color: var(--dark);
-
-    border-spacing: 20px;
-    border-style: solid;
-    border-color:violet
 }
 
 section h2 {
@@ -107,7 +104,7 @@ section img {
 }
 
 aside {
-    width: 24%;
+    width: 12%;
 
     margin-right: 24px;
 
@@ -118,7 +115,7 @@ aside {
     /* height: 100%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--light);
-    height: 240px;
+    height: 120px;
     text-align: right;
 
     border-right-width: 5px;
@@ -130,6 +127,27 @@ aside {
     /* border-color:violet; */
 }
 
+.awork {
+    /* padding: 10px; */
+    /* clear: both;
+    float: left; */
+
+    /* height: 100%; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--light);
+    height: 320px;
+    text-align: right;
+
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: var(--dark);
+
+    /* border-spacing: 20px;
+    border-style: solid; */
+    /* border-color:violet; */
+}
+
+
 aside h1 {
     display: inline-block;
     text-align: right;
@@ -137,6 +155,7 @@ aside h1 {
     font-weight: bold;
     font-size: 42px;
 }
+
 
 
 .hero {
@@ -161,6 +180,7 @@ aside h1 {
     padding: 5px;;
     color: var(--hdbgcolor);
     background-color: var(--smbg-color);
+
 }
 
 .container {
@@ -168,13 +188,81 @@ aside h1 {
     /* max-width: 100em;  */
 
     margin: 0 auto;
-    border: 10px red;
+    border: 10px ;
 }
 
+/* About me description */
 .me{
-    height: 240px;
+    height: 120px;
     border-spacing: 20px;
 }
+
+/* Work Deployed Applications */
+.mework{
+    height: 320px;
+    border-spacing: 20px;
+}
+
+/* Work Deployed Applications : row */
+.wcontainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+    /* test size
+    border-spacing: 20px;
+    border-style: solid;
+    border-color:violet */
+}
+
+/* Work Deployed Applications : one */
+.wcont-cell {
+    flex: 1;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+    border-spacing: 20px;
+    border-style: solid;
+    border-color:var(--smbg-color);
+}
+
+.wcont-item {
+
+    width: 100%;
+    padding: 3.5em 0em 0;
+
+    background-image: url("../images/c1.jpeg");
+    background-size: cover;
+    background-position: center;   
+
+    height:126px;
+
+    border-spacing: 60px;
+    border-style: solid;
+    border-color:var(--smbg-color);
+    
+}
+
+.wcont-item p {
+    display: inline-block;
+
+    text-align: left;
+    font-weight: bold;
+    font-size: 32px;
+
+    padding: 5px;
+    color: var(--hdbgcolor);
+    background-color: var(--smbg-color);
+    
+} 
+
+.wcont-item p span{
+    font-weight:normal;
+    font-size: 11px;
+    margin: 0;
+
+} 
 
 .contact-me {
     padding-top: 15px;
