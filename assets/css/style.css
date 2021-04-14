@@ -26,17 +26,14 @@ header {
     color: var(--light);
 }
 
-h1 {
+header h1 {
     font-size: 56px;
     color: var(--hdbgcolor);
     padding: 10px;
-}
 
-header h1 {
     display: inline-block;
     background-color: var(--smbg-color);
 }
-
 
 header img {
     border-radius: 50%;
@@ -104,7 +101,7 @@ section img {
 }
 
 aside {
-    width: 12%;
+    width: 26%;
 
     margin-right: 24px;
 
@@ -135,7 +132,7 @@ aside {
     /* height: 100%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--light);
-    height: 320px;
+    height: 300px;
     text-align: right;
 
     border-right-width: 5px;
@@ -159,7 +156,7 @@ aside h1 {
 
 
 .hero {
-    height: 240px;
+    height: 160px;
     width: 100%;
     padding: 36px;
 
@@ -237,7 +234,7 @@ aside h1 {
     width: 100%;
     padding: 3.5em 0em 0;
 
-    background-image: url("../images/c1.jpeg");
+ 
     background-size: cover;
     background-position: center;   
 
@@ -248,6 +245,29 @@ aside h1 {
     border-color:var(--smbg-color);
     
 }
+
+/* image 1 on the first diployed application */
+.img1{
+    background-image: url("../images/c1.jpeg");
+        /* href="https://klhi3.github.io/horiseon-seo-optimization/" title="Refactoring" target="_blank" */
+
+}
+
+/* image 2 on the second diployed application */
+.img2 {
+    background-image: url("../images/c2.jpeg");
+    
+}
+
+/* image 3 on the third diployed application */
+.img3 {
+    background-image: url("../images/c3.jpeg");
+}
+
+.margin2 {
+  margin-right: 10px;;
+}
+
 
 .wcont-item p {
     display: inline-block;
@@ -269,18 +289,17 @@ aside h1 {
     font-size: 11px;
 } 
 
-.contact-me {
-    padding-top: 15px;
-    margin-right: 20px;
-
+.cme{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:space-between;
+}
 
-    justify-content: space-around;
+.contact-me {
+    padding-top: 15px;
+    margin-right: 20px;
     font-size: 20px;
-
-    align-content: flex-start;
 }
 
 .contac-me ul {
@@ -305,9 +324,30 @@ footer {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  main, 
+  nav, .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-/*change display under width 768px*/
-@media (min-width: 768px)
-.site-content {
-    padding-top: 2em;
+  header {
+      flex-wrap: wrap;
+      height: 11rem;
+  }
+
+
+  /* Make the sidebar stack below the body */
+  aside {
+    order: 2;
+  }
+
+}
+
+@media screen and (max-width: 508px) {
+    .awork, .mework{
+        height: 440px;
+        margin-bottom: 20px;
+    }
 }
