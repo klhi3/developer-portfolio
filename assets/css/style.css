@@ -5,6 +5,7 @@
     --light: #EEEEF9;
     --smbg-color: #92CCCD;
     --hdbgcolor: #31343D;
+    --custom-height: 128;
   }
   
 * {
@@ -124,12 +125,18 @@ aside {
     /* border-color:violet; */
 }
 
+
+img{
+    width:300px;
+    height: 100px;
+}
 .awork {
 
     /* height: 100%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--light);
-    height: 300px;
+    /* height: 300px; */
+    height: 460px;
     text-align: right;
 
     border-right-width: 5px;
@@ -192,7 +199,8 @@ aside h1 {
 
 /* Work Deployed Applications */
 .mework{
-    height: 320px;
+    height: 520px;
+
     border-spacing: 20px;
 }
 
@@ -220,7 +228,8 @@ aside h1 {
   }
 .image-border {
     width:100%;
-    height: 128px;
+    /* height: 128px; */
+    height: 256px;
     /* Sets border on all sides */
     border: 6px solid var(--smbg-color);
     background-color: var(--smbg-color);
@@ -274,12 +283,14 @@ aside h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-between;
+    height : 120px;
 }
 
 .contact-me {
     padding-top: 15px;
     margin-right: 20px;
     font-size: 20px;
+
 }
 
 .contac-me ul {
